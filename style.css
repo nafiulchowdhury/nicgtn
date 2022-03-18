@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: block;
+}
+.atmps{
+    display: inline;
+    font-weight: bolder;
+}
+.cover{
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+.intro, .gameBox{
+    background-color: antiquewhite;
+    width: 500px;
+    height: auto;
+    margin: 10px auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 50px;
+}
+.gameBox{
+    display: none;
+}
+
+@media screen and (max-width: 950px)
+{
+    .intro, .gameBox{
+        width: 95%;
+        border-radius: 0;
+    }
+    .cover{
+        width: 95%;
+    }
+    .btn{
+        margin: 10px auto;
+    }
+}
